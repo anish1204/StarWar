@@ -1,0 +1,6 @@
+.CardSec
+{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}

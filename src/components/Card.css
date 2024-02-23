@@ -1,0 +1,15 @@
+.body{
+    background-color: burlywood;
+    height:600px;
+    width: 20%;
+    /* border-radius: 5%; */
+}
+
+.CardBody{
+    border: solid 5px rgba(224, 239, 55, 0.712);
+    background-color: rgb(47, 47, 48);
+    color: aliceblue;
+    border-radius: 5%;  
+    height: 350px;
+    width: 20%;
+}
