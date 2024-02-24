@@ -1,13 +1,10 @@
 import React from 'react'
 import Card from './Card'
 import './CardSec.css'
-const CardSec = () => {
+const CardSec = ({planetName}) => {
   return (
     <div className='CardSec'>
-        <Card />
-        <Card />
-        <Card />
-
+      <Card planetName={planetName} /> 
     </div>
   )
 }
