@@ -1,16 +1,16 @@
 import React from 'react'
 import './Card.css'
-const Card = () => {
+const Card = ({planetName}) => {
   return (
     <div className='CardBody'>
         <div className='CardHeading'>
-           <h1> Tatooine</h1>
+        <h1>{ planetName}</h1>
         </div>
         <div className='CardContent'>
             <ul typeof='none'>
                 <li>Temperature</li>
                 <li>Climate : arid</li>
-                <li>Population</li>
+          <li>Population</li>
             </ul>
 
         </div>
